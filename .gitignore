@@ -1,1 +1,6 @@
-/new.ipynb
+__pycache__
+.ipynb_checkpoints
+
+development/
+data/
+figures/
