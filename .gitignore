@@ -5,7 +5,7 @@ __pycache__
 src/
 
 development/
-my_data/
-my_figures/
-main.py
-notes.txt
+plotting/
+private/
+
+TODO.txt

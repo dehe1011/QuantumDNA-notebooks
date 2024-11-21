@@ -1,22 +1,29 @@
-<p align="center">
-    <img src="docs/qDNA_logo.png">
-</p>
+# QuantumDNA Jupyter Notebook Tutorials
 
-# Jupyter Notebook Tutorials
+Welcome to the **QuantumDNA Jupyter Notebook Tutorials**! These tutorials and demonstrations are designed to help users explore and understand the functionalities of the `qDNA` package through practical examples.
 
-The code contains some tutorials and demonstrations to better understand and explore the functionalities.
+## Overview
 
-In the [`tutorials`](docs/tutorials) folder you can find the notebook [`0_Paper`](tutorials/0_Paper.ipynb) that contains and reproduces all the figures contained in [D. Herb, M. Rossini and J. Ankerhold, Ultrafast excitonic dynamics in DNA: Bridging correlated quantum dynamics and sequence dependence.](https://arxiv.org/abs/2402.16892)
+The tutorials are located in the [`tutorials`](docs/tutorials) folder. Among them, the notebook [`PRE_2024`](tutorials/PRE2024.ipynb) reproduces all the figures presented in the reference paper [1].
 
-Additionally, the `QuantumDNA/docs/tutorials` folder contains the following tutorials:
+Additionally, the `tutorials` folder includes the following tutorials, covering various aspects of `qDNA`:
 
-| Tutorial Name                                                                                  | Description                                                          |
-|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| [`1_TB_Models`](tutorials/1_TB_Models.ipynb)                                        | Tutorials on predefined and custom tight-binding models.             |
-| [`2_Data_Visualization`](tutorials/2_Data_Visualization.ipynb)                    | Tutorial on the predefined plotting routines.                        |
-| [`3_DNA_environment`](tutorials/3_DNA_environment.ipynb)                          | Tutorial on different ways to treat DNA relaxation and the DNA environment. |
-| [`4_Parallelized_Calculations`](tutorials/4_Parallelized_Calculations.ipynb)      | Tutorial on how to perform parallelized calculations for several properties. |
-| [`Exploration_Notebook`](tutorials/Exploration_Notebook.ipynb)                    | A place to test the functionality of individual functions isolated from the rest of the code. |
+| **Tutorial Name**                                                                                  | **Description**                                                                                                                   |
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [`1_Tight_Binding_Parameters`](tutorials/1_Tight_Binding_Parameters.ipynb)                         | Learn to use the Linear Combination of Atomic Orbitals (LCAO) approach with Slater–Koster two-center interaction integrals and Harrison-type expressions.   |
+| [`2_Tight_Binding_Method`](tutorials/2_Tight_Binding_Method.ipynb)                                 | Explore predefined and custom tight-binding models. This tutorial demonstrates calculating time-averaged exciton populations in a Fishbone Ladder Model (FLM) and simulating charge transfer in the Fenna-Matthews-Olson (FMO) complex in green sulfur bacteria, showcasing how `qDNA` can define custom models. |
+| [`3_Environment_Simulation`](tutorials/3_Environment_Simulation.ipynb)                            | Discover how to model DNA excited-state relaxation and environmental interactions using dephasing and thermalization models from Quantum Biology. |
+| [`4_Visualization`](tutorials/4_Visualization.ipynb)                                              | Learn how to use `qDNA`'s predefined plotting routines for visualizing results effectively.                                       |
+| [`5_Evaluation`](tutorials/5_Evaluation.ipynb)                                                    | Perform calculations for various observables, such as estimated exciton lifetimes, average charge separation, and dipole moments. This tutorial also demonstrates the use of `qDNA`'s parallelization capabilities. |
 
+---
 
-These tutorials provide hands-on examples and explanations to help you effectively use the `qDNA` package.
+## Getting Started
+
+These tutorials provide hands-on examples and explanations to help you effectively use the `qDNA` package. For each tutorial, navigate to the corresponding `.ipynb` file in the `tutorials` folder and follow the provided instructions.
+
+---
+
+## References
+
+[1] [D. Herb, M. Rossini and J. Ankerhold, Ultrafast excitonic dynamics in DNA: Bridging correlated quantum dynamics and sequence dependence. *Physical Review E 109*, 064413 (2024).](https://doi.org/10.1103/PhysRevE.109.064413)
