@@ -2,10 +2,9 @@ __pycache__
 .ipynb_checkpoints
 
 .venv/
-src/
+.venv_new/
 
+old/
 development/
-plotting/
-private/
 
 TODO.txt
